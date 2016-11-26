@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use culturePnPsu\cms\base\WidgetSettings;
 use dosamigos\ckeditor\CKEditor;
-use culturePnPsu\filemanager\KCFinder;
+use anda\filemanager\KCFinder;
 use kartik\widgets\DateTimePicker;
 use yii\web\JsExpression;
 
