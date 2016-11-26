@@ -29,7 +29,8 @@
         "wowkaster/yii2-serialize-attributes": "dev-master",
         "wbraganca/yii2-nested-set-behavior": "*",
         "wbraganca/yii2-fancytree-widget": "*",
-        "yii2tech/ar-softdelete": "*"
+        "yii2tech/ar-softdelete": "*",
+        "andatech/yii2-filemanager":"dev-master"
     },
     "autoload": {
         "psr-4": {
