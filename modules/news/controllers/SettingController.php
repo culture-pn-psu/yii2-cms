@@ -1,9 +1,9 @@
 <?php
-namespace anda\cms\modules\news\controllers;
+namespace culturePnPsu\cms\modules\news\controllers;
 
 use Yii;
-use anda\cms\base\Controller;
-use anda\cms\modules\news\models\Setting;
+use culturePnPsu\cms\base\Controller;
+use culturePnPsu\cms\modules\news\models\Setting;
 
 class SettingController extends Controller
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace anda\cms\modules\calendar;
+namespace culturePnPsu\cms\modules\calendar;
 
 /**
  * calendar module definition class
  */
-class CalendarModule extends \anda\cms\base\Module
+class CalendarModule extends \culturePnPsu\cms\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'anda\cms\modules\calendar\controllers';
+    public $controllerNamespace = 'culturePnPsu\cms\modules\calendar\controllers';
 
     /**
      * @inheritdoc

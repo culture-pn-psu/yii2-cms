@@ -1,5 +1,5 @@
 <?php
-namespace anda\cms\base;
+namespace culturePnPsu\cms\base;
 
 class WidgetSettings
 {

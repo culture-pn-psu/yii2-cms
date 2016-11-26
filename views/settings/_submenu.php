@@ -1,9 +1,9 @@
 <?php
 use yii\helpers\Html;
 ?>
-<?php $this->beginContent('@anda/cms/views/layouts/main.php'); ?>
+<?php $this->beginContent('@culturePnPsu/cms/views/layouts/main.php'); ?>
 <?php
-$menus = \anda\cms\models\Setting::getTypes();
+$menus = \culturePnPsu\cms\models\Setting::getTypes();
 $request = Yii::$app->request;
 ?>
 <div class="row">

@@ -1,8 +1,8 @@
 <?php
-namespace anda\cms\modules\news\models;
+namespace culturePnPsu\cms\modules\news\models;
 
 
-use anda\cms\modules\post\models\PostSearch;
+use culturePnPsu\cms\modules\post\models\PostSearch;
 
 class NewsSearch extends PostSearch
 {

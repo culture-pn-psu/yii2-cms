@@ -3,7 +3,7 @@
 
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\modules\post\models\Post */
+/* @var $model culturePnPsu\cms\modules\post\models\Post */
 
 $this->title = 'Add new '.ucfirst($this->context->module->id);
 $this->params['breadcrumbs'][] = ['label' => 'Posts', 'url' => ['index']];

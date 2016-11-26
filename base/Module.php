@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\base;
+namespace culturePnPsu\cms\base;
 
 use Yii;
 /**

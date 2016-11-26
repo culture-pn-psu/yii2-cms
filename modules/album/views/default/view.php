@@ -6,7 +6,7 @@ use kartik\detail\DetailView;
 use kartik\file\FileInput;
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\modules\album\models\Album */
+/* @var $model culturePnPsu\cms\modules\album\models\Album */
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Albums', 'url' => ['index']];

@@ -16,7 +16,7 @@ if (Yii::$app->controller->action->id === 'login') {
 } else {
 
     dmstr\web\AdminLteAsset::register($this);
-    anda\cms\assets\CmsAsset::register($this);
+    culturePnPsu\cms\assets\CmsAsset::register($this);
 
     if (class_exists('backend\assets\AppAsset')) {
         backend\assets\AppAsset::register($this);

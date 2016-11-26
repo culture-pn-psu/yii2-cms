@@ -1,9 +1,9 @@
 <?php
 
-namespace anda\cms\modules\category\models;
+namespace culturePnPsu\cms\modules\category\models;
 
 use Yii;
-use anda\cms\base\Model as ActiveRecord;
+use culturePnPsu\cms\base\Model as ActiveRecord;
 use yii\behaviors\TimestampBehavior;
 use yii\behaviors\BlameableBehavior;
 //use yii\behaviors\AttributeBehavior;
@@ -13,8 +13,8 @@ use yii\helpers\ArrayHelper;
 use wbraganca\behaviors\NestedSetBehavior;
 use wbraganca\behaviors\NestedSetQuery;
 
-//use anda\cms\modules\post\models\Post;
-use anda\cms\modules\post\models\PostSearch;
+//use culturePnPsu\cms\modules\post\models\Post;
+use culturePnPsu\cms\modules\post\models\PostSearch;
 
 /**
  * This is the model class for table "{{%web_category}}".

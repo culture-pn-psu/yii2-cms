@@ -5,7 +5,7 @@ use yii\helpers\Html;
 use kartik\detail\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\modules\page\models\Page */
+/* @var $model culturePnPsu\cms\modules\page\models\Page */
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Pages', 'url' => ['index']];

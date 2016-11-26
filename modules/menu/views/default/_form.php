@@ -2,11 +2,11 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use anda\cms\base\WidgetSettings;
+use culturePnPsu\cms\base\WidgetSettings;
 use kartik\widgets\Select2;
 use yii\web\JsExpression;
 /* @var $this yii\web\View */
-/* @var $model anda\cms\modules\page\models\Page */
+/* @var $model culturePnPsu\cms\modules\page\models\Page */
 /* @var $form yii\widgets\ActiveForm */
 
 ?>

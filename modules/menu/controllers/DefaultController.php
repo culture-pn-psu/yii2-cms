@@ -1,12 +1,12 @@
 <?php
 
-namespace anda\cms\modules\menu\controllers;
+namespace culturePnPsu\cms\modules\menu\controllers;
 
-use anda\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\category\models\Category;
 use Yii;
-use anda\cms\modules\menu\models\Menu;
-use anda\cms\modules\menu\models\MenuSearch;
-use anda\cms\base\Controller;
+use culturePnPsu\cms\modules\menu\models\Menu;
+use culturePnPsu\cms\modules\menu\models\MenuSearch;
+use culturePnPsu\cms\base\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\widgets\ActiveForm;
@@ -196,7 +196,7 @@ class DefaultController extends Controller
         $out = ['results' => []];
 
         if (!is_null($q)) {
-            $modelSearchClass = 'anda\cms\modules\\' . $module_id . '\models\\' . ucfirst($module_id) . 'Search';
+            $modelSearchClass = 'culturePnPsu\cms\modules\\' . $module_id . '\models\\' . ucfirst($module_id) . 'Search';
             $searchModel = new $modelSearchClass();
             $dataProvider = $searchModel->search([]);
             $dataProvider->query->andFilterWhere(['like', $searchModel::tableName().'.title', $q]);
@@ -257,7 +257,7 @@ class DefaultController extends Controller
     public function getAncestors($model)
     {
         if($model->module_id != $model::TYPE_NONE) {
-            $modelSearchClass = 'anda\cms\modules\\' . $model->module_id . '\models\\' . ucfirst($model->module_id) . 'Search';
+            $modelSearchClass = 'culturePnPsu\cms\modules\\' . $model->module_id . '\models\\' . ucfirst($model->module_id) . 'Search';
             $record = $modelSearchClass::findOne($model->module_record_id);
             $parents = [];
             if (isset($record->root)) {

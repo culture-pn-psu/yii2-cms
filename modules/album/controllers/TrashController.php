@@ -1,14 +1,14 @@
 <?php
 
-namespace anda\cms\modules\album\controllers;
+namespace culturePnPsu\cms\modules\album\controllers;
 
 
 
 use Yii;
-use anda\cms\base\Controller;
+use culturePnPsu\cms\base\Controller;
 use yii\web\NotFoundHttpException;
-use anda\cms\modules\album\models\Album;
-use anda\cms\modules\album\models\AlbumTrashSearch;
+use culturePnPsu\cms\modules\album\models\Album;
+use culturePnPsu\cms\modules\album\models\AlbumTrashSearch;
 
 class TrashController extends Controller
 {

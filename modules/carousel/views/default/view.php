@@ -5,7 +5,7 @@ use yii\helpers\Html;
 use kartik\detail\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\modules\post\models\Post */
+/* @var $model culturePnPsu\cms\modules\post\models\Post */
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Posts', 'url' => ['index']];
@@ -21,7 +21,7 @@ $gropHeaderOptions = [
         <div class="col-sm-8">
             <label class="control-label"><?= $model->getAttributeLabel('image') ?></label>
                 <?php
-                $clientsPath = Yii::$app->assetManager->getPublishedUrl('@anda/cms/clients');
+                $clientsPath = Yii::$app->assetManager->getPublishedUrl('@culturePnPsu/cms/clients');
                 $image = rtrim($model->behaviors()['crop-image']['attributes']['image']['savePathAlias'], '/').'/'.$model->image;
                 if (is_file($image)){
                     $imageUrl = $model->getImageUrl('image');

@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\models;
+namespace culturePnPsu\cms\models;
 
 use Yii;
 use yii\helpers\ArrayHelper;

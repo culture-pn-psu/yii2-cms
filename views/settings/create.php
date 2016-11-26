@@ -4,7 +4,7 @@ $model->load(Yii::$app->request->get());
 
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\models\Setting */
+/* @var $model culturePnPsu\cms\models\Setting */
 
 $this->title = 'Create '.ucfirst($model->type).' Setting';
 $this->params['breadcrumbs'][] = ['label' => 'Settings', 'url' => ['index']];

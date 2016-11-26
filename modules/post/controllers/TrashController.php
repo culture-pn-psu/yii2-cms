@@ -1,18 +1,18 @@
 <?php
 
-namespace anda\cms\modules\post\controllers;
+namespace culturePnPsu\cms\modules\post\controllers;
 
 
 use Yii;
-use anda\cms\base\Controller;
+use culturePnPsu\cms\base\Controller;
 use yii\web\NotFoundHttpException;
-use anda\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\category\models\Category;
 
 class TrashController extends Controller
 {
-    public $modelClass = 'anda\cms\modules\post\models\Post';
+    public $modelClass = 'culturePnPsu\cms\modules\post\models\Post';
 
-    public $modelSearchClass = 'anda\cms\modules\post\models\PostTrashSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\post\models\PostTrashSearch';
 
     public $masterViewsDir = __DIR__.'/../views';
 

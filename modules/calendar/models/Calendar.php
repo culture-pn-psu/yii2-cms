@@ -1,8 +1,8 @@
 <?php
 
-namespace anda\cms\modules\calendar\models;
+namespace culturePnPsu\cms\modules\calendar\models;
 
-use anda\cms\modules\post\models\Post as ActiveRecord;
+use culturePnPsu\cms\modules\post\models\Post as ActiveRecord;
 
 class Calendar extends ActiveRecord
 {

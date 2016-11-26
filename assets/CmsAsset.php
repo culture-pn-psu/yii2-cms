@@ -1,5 +1,5 @@
 <?php
-namespace anda\cms\assets;
+namespace culturePnPsu\cms\assets;
 
 
 use yii\web\AssetBundle;
@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class CmsAsset extends AssetBundle
 {
-    public $sourcePath = '@anda/cms/clients';
+    public $sourcePath = '@culturePnPsu/cms/clients';
     public $css = [
     	'css/adminlte2-fixed.css'
     ];

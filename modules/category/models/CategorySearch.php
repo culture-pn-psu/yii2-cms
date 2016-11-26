@@ -1,14 +1,14 @@
 <?php
 
-namespace anda\cms\modules\category\models;
+namespace culturePnPsu\cms\modules\category\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use anda\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\category\models\Category;
 
 /**
- * CategorySearch represents the model behind the search form about `anda\cms\modules\category\models\Category`.
+ * CategorySearch represents the model behind the search form about `culturePnPsu\cms\modules\category\models\Category`.
  */
 class CategorySearch extends Category
 {

@@ -1,5 +1,5 @@
 <?php
-namespace anda\cms\base;
+namespace culturePnPsu\cms\base;
 
 use Yii;
 use yii\filters\VerbFilter;
@@ -38,7 +38,7 @@ class Controller extends \yii\web\Controller
 		return [
 			'error' => [
 				'class' => 'yii\web\ErrorAction',
-				'view' => '@anda/cms/views/layouts/error',
+				'view' => '@culturePnPsu/cms/views/layouts/error',
 			],
 		];
 	}

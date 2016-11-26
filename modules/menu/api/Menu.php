@@ -1,15 +1,15 @@
 <?php
-namespace anda\cms\modules\menu\api;
+namespace culturePnPsu\cms\modules\menu\api;
 
 use Yii;
-use anda\cms\base\ApiChildModule;
-use anda\cms\helpers\Data;
+use culturePnPsu\cms\base\ApiChildModule;
+use culturePnPsu\cms\helpers\Data;
 
 class Menu extends ApiChildModule
 {
-    public $modelClass = 'anda\cms\modules\menu\models\Menu';
+    public $modelClass = 'culturePnPsu\cms\modules\menu\models\Menu';
 
-    public $modelSearchClass = 'anda\cms\modules\menu\models\MenuSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\menu\models\MenuSearch';
 
     public $_model;
 

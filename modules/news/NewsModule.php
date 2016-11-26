@@ -1,16 +1,16 @@
 <?php
 
-namespace anda\cms\modules\news;
+namespace culturePnPsu\cms\modules\news;
 
 /**
  * news module definition class
  */
-class NewsModule extends \anda\cms\base\Module
+class NewsModule extends \culturePnPsu\cms\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'anda\cms\modules\news\controllers';
+    public $controllerNamespace = 'culturePnPsu\cms\modules\news\controllers';
 
     /**
      * @inheritdoc

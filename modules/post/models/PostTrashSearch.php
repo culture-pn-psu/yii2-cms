@@ -1,12 +1,12 @@
 <?php
 
-namespace anda\cms\modules\post\models;
+namespace culturePnPsu\cms\modules\post\models;
 
 use Yii;
-use anda\cms\modules\post\models\PostSearch;
+use culturePnPsu\cms\modules\post\models\PostSearch;
 
 /**
- * PostSearch represents the model behind the search form about `anda\cms\modules\post\models\Post`.
+ * PostSearch represents the model behind the search form about `culturePnPsu\cms\modules\post\models\Post`.
  */
 class PostTrashSearch extends PostSearch
 {

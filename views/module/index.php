@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
 /* @var $this yii\web\View */
-/* @var $searchModel anda\cms\models\ModuleSearch */
+/* @var $searchModel culturePnPsu\cms\models\ModuleSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Modules';

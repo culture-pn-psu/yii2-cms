@@ -1,16 +1,16 @@
 <?php
 
-namespace anda\cms\modules\post\models;
+namespace culturePnPsu\cms\modules\post\models;
 
 //use kcfinder\path;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use anda\cms\modules\post\models\Post;
-use anda\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\post\models\Post;
+use culturePnPsu\cms\modules\category\models\Category;
 
 /**
- * PostSearch represents the model behind the search form about `anda\cms\modules\post\models\Post`.
+ * PostSearch represents the model behind the search form about `culturePnPsu\cms\modules\post\models\Post`.
  */
 class PostSearch extends Post
 {

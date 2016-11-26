@@ -3,14 +3,14 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\ActiveForm;
-use anda\cms\base\WidgetSettings;
+use culturePnPsu\cms\base\WidgetSettings;
 use dosamigos\ckeditor\CKEditor;
-use anda\filemanager\KCFinder;
+use culturePnPsu\filemanager\KCFinder;
 use kartik\widgets\DateTimePicker;
 use yii\web\JsExpression;
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\modules\post\models\Post */
+/* @var $model culturePnPsu\cms\modules\post\models\Post */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 <?php
@@ -94,7 +94,7 @@ use yii\web\JsExpression;
             <label class="control-label" for="<?= Html::getInputId($model, 'image'); ?>" style="width: 100%; margin: 0; cursor: pointer;">
                 <?= $model->getAttributeLabel('image'); ?>
                 <?php
-                $clientsPath = Yii::$app->assetManager->getPublishedUrl('@anda/cms/clients');
+                $clientsPath = Yii::$app->assetManager->getPublishedUrl('@culturePnPsu/cms/clients');
                 $image = rtrim($model->behaviors()['crop-image']['attributes']['image']['savePathAlias'], '/').'/'.$model->image;
                 if (is_file($image)){
                     $imageUrl = $model->getImageUrl('image');

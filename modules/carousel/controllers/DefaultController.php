@@ -1,9 +1,9 @@
 <?php
-namespace anda\cms\modules\carousel\controllers;
+namespace culturePnPsu\cms\modules\carousel\controllers;
 
 use Yii;
-use anda\cms\modules\category\models\Category;
-use anda\cms\modules\post\controllers\DefaultController as Controller;
+use culturePnPsu\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\post\controllers\DefaultController as Controller;
 
 /**
  * Default controller for the `carousel` module
@@ -11,9 +11,9 @@ use anda\cms\modules\post\controllers\DefaultController as Controller;
 class DefaultController extends Controller
 {
 
-    public $modelClass = 'anda\cms\modules\carousel\models\Carousel';
+    public $modelClass = 'culturePnPsu\cms\modules\carousel\models\Carousel';
     
-    public $modelSearchClass = 'anda\cms\modules\carousel\models\CarouselSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\carousel\models\CarouselSearch';
 
     public function beforeAction($action)
     {
@@ -22,7 +22,7 @@ class DefaultController extends Controller
             return $this->redirect(['category/create']);
         }else{
             if (!isset($this->module->settings['categoryRoot'])) {
-                $model = \anda\cms\models\Module::findOne(['name' => $this->module->id]);
+                $model = \culturePnPsu\cms\models\Module::findOne(['name' => $this->module->id]);
                 if(is_array($model->settings)) {
                     $model->settings = array_merge($model->settings, ['categoryRoot' => $myCategory->root]);
                 }else{

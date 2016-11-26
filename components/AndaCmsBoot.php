@@ -1,9 +1,9 @@
 <?php
-namespace anda\cms\components;
+namespace culturePnPsu\cms\components;
 
 use Yii;
 use yii\base\BootstrapInterface;
-use anda\cms\models\Setting;
+use culturePnPsu\cms\models\Setting;
 
 /*
 /* The base class that you use to retrieve the settings from the database

@@ -1,8 +1,8 @@
 <?php
 
-namespace anda\cms\modules\carousel\models;
+namespace culturePnPsu\cms\modules\carousel\models;
 
-use anda\cms\modules\post\models\Post as ActiveRecord;
+use culturePnPsu\cms\modules\post\models\Post as ActiveRecord;
 
 class Carousel extends ActiveRecord
 {

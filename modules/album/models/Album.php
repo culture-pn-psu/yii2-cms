@@ -1,9 +1,9 @@
 <?php
 
-namespace anda\cms\modules\album\models;
+namespace culturePnPsu\cms\modules\album\models;
 
 use Yii;
-use anda\cms\modules\post\models\Post as ActiveRecord;
+use culturePnPsu\cms\modules\post\models\Post as ActiveRecord;
 use yii\helpers\FileHelper;
 
 

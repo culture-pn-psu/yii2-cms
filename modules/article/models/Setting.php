@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\modules\article\models;
+namespace culturePnPsu\cms\modules\article\models;
 
 use Yii;
 
@@ -10,7 +10,7 @@ use Yii;
  * @property integer $id
  * @property string $category_root
  */
-class Setting extends \anda\cms\models\Module
+class Setting extends \culturePnPsu\cms\models\Module
 {
     /**
      * @inheritdoc

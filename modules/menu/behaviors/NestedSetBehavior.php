@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\modules\menu\behaviors;
+namespace culturePnPsu\cms\modules\menu\behaviors;
 
 use wbraganca\behaviors\NestedSetBehavior as Behavior;
 

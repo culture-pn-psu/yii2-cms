@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\modules\post\models\Post */
+/* @var $model culturePnPsu\cms\modules\post\models\Post */
 
 $this->title = 'Update '.ucfirst($this->context->module->id).': ' . $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Posts', 'url' => ['index']];

@@ -12,16 +12,16 @@ Yii 2 CMS from Anda Tech
     ...
     'modules' => [
       'web-admin' => [
-        'class' => 'anda\cms\Module',
+        'class' => 'culturePnPsu\cms\Module',
         'tablePrefix' => 'web_',
-        'uploadDir' => '@uploads/anda-cms',
+        'uploadDir' => '@uploads/web-cms/',
         'uploadUrl' => '/uploads/anda-cms'
       ]
     ],
     'components' => [
       ...
       'andacms' => [
-        'class' => 'anda\cms\components\API',
+        'class' => 'culturePnPsu\cms\components\API',
       ],
       ...
     ]

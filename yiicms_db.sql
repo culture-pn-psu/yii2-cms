@@ -254,15 +254,15 @@ CREATE TABLE `web_module` (
 --
 
 INSERT INTO `web_module` (`id`, `name`, `title`, `class`, `icon`, `settings`, `order_num`, `status`) VALUES
-(1, 'post', 'Post', 'anda\\cms\\modules\\post\\PostModule', 'fa fa-pencil-square-o', '', 1, 1),
-(2, 'category', 'Category', 'anda\\cms\\modules\\category\\CategoryModule', 'fa fa-list-ul', '[]', 2, 1),
-(3, 'page', 'Page', 'anda\\cms\\modules\\page\\PageModule', 'fa fa-file-text-o', '[]', 3, 1),
-(4, 'album', 'Album', 'anda\\cms\\modules\\album\\AlbumModule', 'fa fa-camera', '{"resize":{"full":{"width":1024,"height":768},"thumb":{"width":256,"height":192}},"categoryRoot":26}', 4, 1),
-(5, 'news', 'News', 'anda\\cms\\modules\\news\\NewsModule', 'fa fa-newspaper-o', '{"categoryRoot":1}', 5, 1),
-(6, 'article', 'Article', 'anda\\cms\\modules\\article\\ArticleModule', 'fa fa-file-text', '{"categoryRoot":4}', 6, 1),
-(7, 'calendar', 'Calendar', 'anda\\cms\\modules\\calendar\\CalendarModule', 'fa fa-calendar', '{"categoryRoot":14}', 7, 1),
-(8, 'carousel', 'Carousel', 'anda\\cms\\modules\\carousel\\CarouselModule', 'fa fa-picture-o', '{"categoryRoot":25}', 8, 1),
-(9, 'menu', 'Menu', 'anda\\cms\\modules\\menu\\MenuModule', 'fa fa-bars', '', 9, 1);
+(1, 'post', 'Post', 'culturePnPsu\\cms\\modules\\post\\PostModule', 'fa fa-pencil-square-o', '', 1, 1),
+(2, 'category', 'Category', 'culturePnPsu\\cms\\modules\\category\\CategoryModule', 'fa fa-list-ul', '[]', 2, 1),
+(3, 'page', 'Page', 'culturePnPsu\\cms\\modules\\page\\PageModule', 'fa fa-file-text-o', '[]', 3, 1),
+(4, 'album', 'Album', 'culturePnPsu\\cms\\modules\\album\\AlbumModule', 'fa fa-camera', '{"resize":{"full":{"width":1024,"height":768},"thumb":{"width":256,"height":192}},"categoryRoot":26}', 4, 1),
+(5, 'news', 'News', 'culturePnPsu\\cms\\modules\\news\\NewsModule', 'fa fa-newspaper-o', '{"categoryRoot":1}', 5, 1),
+(6, 'article', 'Article', 'culturePnPsu\\cms\\modules\\article\\ArticleModule', 'fa fa-file-text', '{"categoryRoot":4}', 6, 1),
+(7, 'calendar', 'Calendar', 'culturePnPsu\\cms\\modules\\calendar\\CalendarModule', 'fa fa-calendar', '{"categoryRoot":14}', 7, 1),
+(8, 'carousel', 'Carousel', 'culturePnPsu\\cms\\modules\\carousel\\CarouselModule', 'fa fa-picture-o', '{"categoryRoot":25}', 8, 1),
+(9, 'menu', 'Menu', 'culturePnPsu\\cms\\modules\\menu\\MenuModule', 'fa fa-bars', '', 9, 1);
 
 -- --------------------------------------------------------
 

@@ -1,9 +1,9 @@
 <?php
-namespace anda\cms\modules\news\controllers;
+namespace culturePnPsu\cms\modules\news\controllers;
 
 
 use Yii;
-use anda\cms\modules\post\controllers\TrashController as Controller;
+use culturePnPsu\cms\modules\post\controllers\TrashController as Controller;
 
 class TrashController extends Controller
 {

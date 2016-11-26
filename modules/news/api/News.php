@@ -1,13 +1,13 @@
 <?php
-namespace anda\cms\modules\news\api;
+namespace culturePnPsu\cms\modules\news\api;
 
 use Yii;
-use anda\cms\base\ApiChildModule;
+use culturePnPsu\cms\base\ApiChildModule;
 
 class News extends ApiChildModule
 {
-    public $modelClass = 'anda\cms\modules\news\models\News';
+    public $modelClass = 'culturePnPsu\cms\modules\news\models\News';
 
-    public $modelSearchClass = 'anda\cms\modules\news\models\NewsSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\news\models\NewsSearch';
     
 }

@@ -5,7 +5,7 @@ use yii\grid\GridView;
 use yii\widgets\Pjax;
 use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
-/* @var $searchModel anda\cms\models\SettingSearch */
+/* @var $searchModel culturePnPsu\cms\models\SettingSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 $settingSearch = Yii::$app->request->get('SettingSearch');
 $this->title = $searchModel->types[$settingSearch['type']]['label'].' Settings';

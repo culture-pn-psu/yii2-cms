@@ -1,12 +1,12 @@
 <?php
-namespace anda\cms\modules\category\api;
+namespace culturePnPsu\cms\modules\category\api;
 
 use Yii;
-use anda\cms\base\ApiChildModule;
+use culturePnPsu\cms\base\ApiChildModule;
 
 class Category extends ApiChildModule
 {
-    public $modelClass = 'anda\cms\modules\category\models\Category';
+    public $modelClass = 'culturePnPsu\cms\modules\category\models\Category';
 
-    public $modelSearchClass = 'anda\cms\modules\category\models\CategorySearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\category\models\CategorySearch';
 }

@@ -1,16 +1,16 @@
 <?php
 
-namespace anda\cms\modules\post;
+namespace culturePnPsu\cms\modules\post;
 
 /**
  * post module definition class
  */
-class PostModule extends \anda\cms\base\Module
+class PostModule extends \culturePnPsu\cms\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'anda\cms\modules\post\controllers';
+    public $controllerNamespace = 'culturePnPsu\cms\modules\post\controllers';
 
     /**
      * @inheritdoc

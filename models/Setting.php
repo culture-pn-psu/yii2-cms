@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\models;
+namespace culturePnPsu\cms\models;
 
 use Yii;
 
@@ -13,7 +13,7 @@ use Yii;
  * @property string $language
  * @property string $value
  */
-class Setting extends \anda\cms\base\Model
+class Setting extends \culturePnPsu\cms\base\Model
 {
     const CACHE_KEY = 'andacmsSettings';
     /**

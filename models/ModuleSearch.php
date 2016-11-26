@@ -1,14 +1,14 @@
 <?php
 
-namespace anda\cms\models;
+namespace culturePnPsu\cms\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use anda\cms\models\Module;
+use culturePnPsu\cms\models\Module;
 
 /**
- * ModuleSearch represents the model behind the search form about `anda\cms\models\Module`.
+ * ModuleSearch represents the model behind the search form about `culturePnPsu\cms\models\Module`.
  */
 class ModuleSearch extends Module
 {

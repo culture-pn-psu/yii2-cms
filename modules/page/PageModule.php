@@ -1,16 +1,16 @@
 <?php
 
-namespace anda\cms\modules\page;
+namespace culturePnPsu\cms\modules\page;
 
 /**
  * page module definition class
  */
-class PageModule extends \anda\cms\base\Module
+class PageModule extends \culturePnPsu\cms\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'anda\cms\modules\page\controllers';
+    public $controllerNamespace = 'culturePnPsu\cms\modules\page\controllers';
 
     /**
      * @inheritdoc

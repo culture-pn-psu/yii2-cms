@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\models\Setting */
+/* @var $model culturePnPsu\cms\models\Setting */
 
 $this->title = 'Update Setting: ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Settings', 'url' => ['index']];

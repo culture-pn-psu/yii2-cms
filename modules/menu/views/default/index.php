@@ -153,7 +153,7 @@ $js[] = "$('#fancyree_menu').contextmenu({
 
 
 $this->registerJs(implode("\n", $js));
-$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@anda/cms/clients');
+$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@culturePnPsu/cms/clients');
 $this->registerJsFile($directoryAsset."/js/jquery.ui-contextmenu.min.js", [
     'depends' => [\yii\bootstrap\BootstrapAsset::className()
     ]

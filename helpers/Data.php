@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\helpers;
+namespace culturePnPsu\cms\helpers;
 
 use Yii;
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace anda\cms\modules\carousel;
+namespace culturePnPsu\cms\modules\carousel;
 
 /**
  * album module definition class
  */
-class CarouselModule extends \anda\cms\base\Module
+class CarouselModule extends \culturePnPsu\cms\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'anda\cms\modules\carousel\controllers';
+    public $controllerNamespace = 'culturePnPsu\cms\modules\carousel\controllers';
 
     /**
      * @inheritdoc

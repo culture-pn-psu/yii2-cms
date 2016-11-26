@@ -7,7 +7,7 @@ use yii\helpers\Url;
 <?php
 
 /* @var $this yii\web\View */
-/* @var $searchModel anda\cms\modules\page\models\PageSearch */
+/* @var $searchModel culturePnPsu\cms\modules\page\models\PageSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Categories';

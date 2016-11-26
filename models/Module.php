@@ -1,10 +1,10 @@
 <?php
 
-namespace anda\cms\models;
+namespace culturePnPsu\cms\models;
 
 use Yii;
 use wowkaster\serializeAttributes\SerializeAttributesBehavior;
-use anda\cms\helpers\Data;
+use culturePnPsu\cms\helpers\Data;
 
 /**
  * This is the model class for table "{{%web_module}}".
@@ -18,7 +18,7 @@ use anda\cms\helpers\Data;
  * @property integer $order_num
  * @property integer $status
  */
-class Module extends \anda\cms\base\Model
+class Module extends \culturePnPsu\cms\base\Model
 {
     /**
      * @inheritdoc

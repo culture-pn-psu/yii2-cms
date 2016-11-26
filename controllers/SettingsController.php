@@ -1,13 +1,13 @@
 <?php
 
-namespace anda\cms\controllers;
+namespace culturePnPsu\cms\controllers;
 
 use Yii;
-use anda\cms\models\Setting;
-use anda\cms\models\SettingSearch;
+use culturePnPsu\cms\models\Setting;
+use culturePnPsu\cms\models\SettingSearch;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use anda\cms\base\Controller;
+use culturePnPsu\cms\base\Controller;
 
 /**
  * SettingsController implements the CRUD actions for Setting model.
@@ -17,7 +17,7 @@ class SettingsController extends Controller
     /**
      * @inheritdoc
      */
-    public $layout = '@anda/cms/views/settings/_submenu';
+    public $layout = '@culturePnPsu/cms/views/settings/_submenu';
 
     public function behaviors()
     {
@@ -38,7 +38,7 @@ class SettingsController extends Controller
     public function actionIndex()
     {
         /*if(Yii::$app->request->get('SettingSearch') === null){
-            $typeKeys = array_keys(\anda\cms\models\Setting::getTypes());
+            $typeKeys = array_keys(\culturePnPsu\cms\models\Setting::getTypes());
             return $this->redirect(['index', 'SettingSearch'=>['type'=>current($typeKeys)]]);
         }
         $searchModel = new SettingSearch();
@@ -53,7 +53,7 @@ class SettingsController extends Controller
     }
     public function actionGeneral()
     {
-        $model = new \anda\cms\models\GeneralSetting;
+        $model = new \culturePnPsu\cms\models\GeneralSetting;
         if ($model->load(Yii::$app->request->post())) {
             foreach ($model->attributes as $name => $value){
                 $settingModel = Setting::find()->where(['name' => $name, 'type' => $this->action->id])->one();
@@ -82,7 +82,7 @@ class SettingsController extends Controller
 
     public function actionReading()
     {
-        $model = new \anda\cms\models\ReadingSetting;
+        $model = new \culturePnPsu\cms\models\ReadingSetting;
         if ($model->load(Yii::$app->request->post())) {
             foreach ($model->attributes as $name => $value){
                 $settingModel = Setting::find()->where(['name' => $name, 'type' => $this->action->id])->one();

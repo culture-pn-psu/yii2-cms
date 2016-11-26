@@ -1,9 +1,9 @@
 <?php
-namespace anda\cms\modules\carousel\controllers;
+namespace culturePnPsu\cms\modules\carousel\controllers;
 
 use Yii;
-use anda\cms\base\Controller;
-use anda\cms\modules\carousel\models\Setting;
+use culturePnPsu\cms\base\Controller;
+use culturePnPsu\cms\modules\carousel\models\Setting;
 
 class SettingController extends Controller
 {

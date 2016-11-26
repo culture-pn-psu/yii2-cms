@@ -1,26 +1,26 @@
 <?php
 
-namespace anda\cms\modules\post\controllers;
+namespace culturePnPsu\cms\modules\post\controllers;
 
 use Yii;
-//use anda\cms\modules\post\models\Post;
-//use anda\cms\modules\post\models\PostSearch;
-use anda\cms\base\Controller;
+//use culturePnPsu\cms\modules\post\models\Post;
+//use culturePnPsu\cms\modules\post\models\PostSearch;
+use culturePnPsu\cms\base\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\base\InvalidCallException;
 use yii\helpers\Json;
 use yii\helpers\Url;
-use anda\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\category\models\Category;
 
 /**
  * DefaultController implements the CRUD actions for Post model.
  */
 class DefaultController extends Controller
 {
-    public $modelClass = 'anda\cms\modules\post\models\Post';
+    public $modelClass = 'culturePnPsu\cms\modules\post\models\Post';
 
-    public $modelSearchClass = 'anda\cms\modules\post\models\PostSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\post\models\PostSearch';
 
 //    public $categoryName = null;
 

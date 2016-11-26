@@ -1,17 +1,17 @@
 <?php
 
-namespace anda\cms\base;
+namespace culturePnPsu\cms\base;
 
 use Yii;
 use yii\base\Object;
 use yii\web\NotFoundHttpException;
-use anda\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\category\models\Category;
 
 class ApiChildModule extends Object
 {
-    public $modelClass = 'anda\cms\modules\post\models\Post';
+    public $modelClass = 'culturePnPsu\cms\modules\post\models\Post';
 
-    public $modelSearchClass = 'anda\cms\modules\post\models\PostSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\post\models\PostSearch';
 
     public $moduleId;
 

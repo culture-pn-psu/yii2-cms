@@ -1,9 +1,9 @@
 <?php
 
-namespace anda\cms\modules\post\models;
+namespace culturePnPsu\cms\modules\post\models;
 
 use Yii;
-use anda\cms\base\Model as ActiveRecord;
+use culturePnPsu\cms\base\Model as ActiveRecord;
 use yii\behaviors\TimestampBehavior;
 use yii\behaviors\BlameableBehavior;
 use yii\behaviors\AttributeBehavior;
@@ -253,7 +253,7 @@ class Post extends ActiveRecord
 
     public function getCategory()
     {
-        return $this->hasOne(\anda\cms\modules\category\models\Category::className(), ['id' => 'category_id']);
+        return $this->hasOne(\culturePnPsu\cms\modules\category\models\Category::className(), ['id' => 'category_id']);
     }
 
 
@@ -293,7 +293,7 @@ class Post extends ActiveRecord
         }
 
         if($imgNone) {
-            $clientsPath = Yii::$app->assetManager->getPublishedUrl('@anda/cms/clients');
+            $clientsPath = Yii::$app->assetManager->getPublishedUrl('@culturePnPsu/cms/clients');
             return $clientsPath . '/images/image-none.jpg';
         }else{
             return null;

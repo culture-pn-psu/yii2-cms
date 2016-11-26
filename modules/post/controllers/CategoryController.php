@@ -1,9 +1,9 @@
 <?php
-namespace anda\cms\modules\post\controllers;
+namespace culturePnPsu\cms\modules\post\controllers;
 
 use Yii;
-use anda\cms\base\Controller;
-use anda\cms\modules\category\models\Category;
+use culturePnPsu\cms\base\Controller;
+use culturePnPsu\cms\modules\category\models\Category;
 
 class CategoryController extends Controller
 {
@@ -16,7 +16,7 @@ class CategoryController extends Controller
         if (is_null($myCategory)) {
             $model = new Category();
             if ($model->load(Yii::$app->request->post()) && $model->saveNode()) {
-                $moduleModel = \anda\cms\models\Module::findOne(['name' => $this->module->id]);
+                $moduleModel = \culturePnPsu\cms\models\Module::findOne(['name' => $this->module->id]);
                 if (is_array($moduleModel->settings)) {
                     $moduleModel->settings = array_merge($moduleModel->settings, ['categoryRoot' => $model->root]);
                 } else {

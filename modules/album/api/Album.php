@@ -1,13 +1,13 @@
 <?php
-namespace anda\cms\modules\album\api;
+namespace culturePnPsu\cms\modules\album\api;
 
 use Yii;
-use anda\cms\base\ApiChildModule;
+use culturePnPsu\cms\base\ApiChildModule;
 
 class Album extends ApiChildModule
 {
-    public $modelClass = 'anda\cms\modules\album\models\Album';
+    public $modelClass = 'culturePnPsu\cms\modules\album\models\Album';
 
-    public $modelSearchClass = 'anda\cms\modules\album\models\AlbumSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\album\models\AlbumSearch';
     
 }

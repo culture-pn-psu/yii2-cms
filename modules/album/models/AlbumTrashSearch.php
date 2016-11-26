@@ -1,13 +1,13 @@
 <?php
 
-namespace anda\cms\modules\album\models;
+namespace culturePnPsu\cms\modules\album\models;
 
 use Yii;
 use yii\data\ActiveDataProvider;
-use anda\cms\modules\album\models\AlbumSearch;
+use culturePnPsu\cms\modules\album\models\AlbumSearch;
 
 /**
- * PostSearch represents the model behind the search form about `anda\cms\modules\post\models\Post`.
+ * PostSearch represents the model behind the search form about `culturePnPsu\cms\modules\post\models\Post`.
  */
 class AlbumTrashSearch extends AlbumSearch
 {

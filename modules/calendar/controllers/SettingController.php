@@ -1,9 +1,9 @@
 <?php
-namespace anda\cms\modules\calendar\controllers;
+namespace culturePnPsu\cms\modules\calendar\controllers;
 
 use Yii;
-use anda\cms\base\Controller;
-use anda\cms\modules\calendar\models\Setting;
+use culturePnPsu\cms\base\Controller;
+use culturePnPsu\cms\modules\calendar\models\Setting;
 
 class SettingController extends Controller
 {

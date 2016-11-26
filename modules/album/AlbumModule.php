@@ -1,16 +1,16 @@
 <?php
 
-namespace anda\cms\modules\album;
+namespace culturePnPsu\cms\modules\album;
 
 /**
  * album module definition class
  */
-class AlbumModule extends \anda\cms\base\Module
+class AlbumModule extends \culturePnPsu\cms\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'anda\cms\modules\album\controllers';
+    public $controllerNamespace = 'culturePnPsu\cms\modules\album\controllers';
 
     /**
      * @inheritdoc

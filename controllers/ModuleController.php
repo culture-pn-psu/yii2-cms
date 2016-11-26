@@ -1,10 +1,10 @@
 <?php
 
-namespace anda\cms\controllers;
+namespace culturePnPsu\cms\controllers;
 
 use Yii;
-use anda\cms\models\Module;
-use anda\cms\models\ModuleSearch;
+use culturePnPsu\cms\models\Module;
+use culturePnPsu\cms\models\ModuleSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

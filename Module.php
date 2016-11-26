@@ -1,11 +1,11 @@
 <?php
 
-namespace anda\cms;
+namespace culturePnPsu\cms;
 
 use Yii;
-use anda\cms\models\Module as ModuleModel;
-use anda\cms\models\Setting;
-use anda\cms\helpers\Data;
+use culturePnPsu\cms\models\Module as ModuleModel;
+use culturePnPsu\cms\models\Setting;
+use culturePnPsu\cms\helpers\Data;
 use yii\base\BootstrapInterface;
 
 /**
@@ -16,7 +16,7 @@ class Module extends \yii\base\Module implements BootstrapInterface
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'anda\cms\controllers';
+    public $controllerNamespace = 'culturePnPsu\cms\controllers';
 
     public $activeModules = [];
 
@@ -99,7 +99,7 @@ class Module extends \yii\base\Module implements BootstrapInterface
      */
     private function setLayout()
     {
-        $this->layoutPath = '@anda/cms/views/layouts';
+        $this->layoutPath = '@culturePnPsu/cms/views/layouts';
         $this->layout = 'main';
     }
 
@@ -209,7 +209,7 @@ class Module extends \yii\base\Module implements BootstrapInterface
         Yii::$app->i18n->translations['andacms'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@anda/cms/messages',
+            'basePath' => '@culturePnPsu/cms/messages',
             'fileMap' => [
                 'andacms' => 'andacms.php',
             ]

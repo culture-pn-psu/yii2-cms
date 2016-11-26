@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\components;
+namespace culturePnPsu\cms\components;
 
 
 class ModelSetting extends \yii\db\ActiveRecord

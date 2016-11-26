@@ -1,8 +1,8 @@
 <?php
 
-namespace anda\cms\modules\menu\behaviors;
+namespace culturePnPsu\cms\modules\menu\behaviors;
 
-use anda\cms\modules\menu\behaviors\NestedSetQueryBehavior;
+use culturePnPsu\cms\modules\menu\behaviors\NestedSetQueryBehavior;
 
 /**
  * @author Wanderson Bragança <wanderson.wbc@gmail.com>

@@ -1,11 +1,11 @@
 <?php
 
-namespace anda\cms\modules\category\controllers;
+namespace culturePnPsu\cms\modules\category\controllers;
 
 use Yii;
-use anda\cms\modules\category\models\Category;
-use anda\cms\modules\category\models\CategorySearch;
-use anda\cms\base\Controller;
+use culturePnPsu\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\category\models\CategorySearch;
+use culturePnPsu\cms\base\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\widgets\ActiveForm;

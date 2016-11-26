@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\modules\menu\behaviors;
+namespace culturePnPsu\cms\modules\menu\behaviors;
 
 use wbraganca\behaviors\NestedSetQueryBehavior as Behavior;
 use yii\helpers\Url;

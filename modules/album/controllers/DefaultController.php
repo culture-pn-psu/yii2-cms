@@ -1,9 +1,9 @@
 <?php
 
-namespace anda\cms\modules\album\controllers;
+namespace culturePnPsu\cms\modules\album\controllers;
 
 use Yii;
-use anda\cms\modules\category\models\Category;
+use culturePnPsu\cms\modules\category\models\Category;
 use yii\helpers\FileHelper;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -14,16 +14,16 @@ use yii\web\UploadedFile;
 use yii\imagine\Image;
 use Imagine\Image\Box;
 
-use anda\cms\modules\post\controllers\DefaultController as Controller;
+use culturePnPsu\cms\modules\post\controllers\DefaultController as Controller;
 
 /**
  * DefaultController implements the CRUD actions for Album model.
  */
 class DefaultController extends Controller
 {
-    public $modelClass = 'anda\cms\modules\album\models\Album';
+    public $modelClass = 'culturePnPsu\cms\modules\album\models\Album';
 
-    public $modelSearchClass = 'anda\cms\modules\album\models\AlbumSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\album\models\AlbumSearch';
 
     public function beforeAction($action)
     {
@@ -32,7 +32,7 @@ class DefaultController extends Controller
             return $this->redirect(['category/create']);
         }else{
             if (!isset($this->module->settings['categoryRoot'])) {
-                $model = \anda\cms\models\Module::findOne(['name' => $this->module->id]);
+                $model = \culturePnPsu\cms\models\Module::findOne(['name' => $this->module->id]);
                 if(is_array($model->settings)) {
                     $model->settings = array_merge($model->settings, ['categoryRoot' => $myCategory->root]);
                 }else{

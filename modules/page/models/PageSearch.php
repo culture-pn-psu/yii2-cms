@@ -1,14 +1,14 @@
 <?php
 
-namespace anda\cms\modules\page\models;
+namespace culturePnPsu\cms\modules\page\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use anda\cms\modules\page\models\Page;
+use culturePnPsu\cms\modules\page\models\Page;
 
 /**
- * PageSearch represents the model behind the search form about `anda\cms\modules\page\models\Page`.
+ * PageSearch represents the model behind the search form about `culturePnPsu\cms\modules\page\models\Page`.
  */
 class PageSearch extends Page
 {

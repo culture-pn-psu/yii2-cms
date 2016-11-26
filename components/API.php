@@ -1,6 +1,6 @@
 <?php
 
-namespace anda\cms\components;
+namespace culturePnPsu\cms\components;
 
 use Yii;
 use yii\base\Object;
@@ -23,7 +23,7 @@ class API extends Object
     public function getChildModule($name=null)
     {
         if(!is_null($name)){
-            $className = 'anda\cms\modules\\' . $name . '\api\\'.ucfirst($name);
+            $className = 'culturePnPsu\cms\modules\\' . $name . '\api\\'.ucfirst($name);
             if (class_exists($className)) {
                 $this->registerTranslations($name);
                 $moduleApi = new $className();

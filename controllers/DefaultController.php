@@ -1,8 +1,8 @@
 <?php
 
-namespace anda\cms\controllers;
+namespace culturePnPsu\cms\controllers;
 
-use anda\cms\base\Controller;
+use culturePnPsu\cms\base\Controller;
 
 /**
  * Default controller for the `cms` module

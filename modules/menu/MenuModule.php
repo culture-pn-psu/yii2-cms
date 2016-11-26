@@ -1,16 +1,16 @@
 <?php
 
-namespace anda\cms\modules\menu;
+namespace culturePnPsu\cms\modules\menu;
 
 /**
  * menu module definition class
  */
-class MenuModule extends \anda\cms\base\Module
+class MenuModule extends \culturePnPsu\cms\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'anda\cms\modules\menu\controllers';
+    public $controllerNamespace = 'culturePnPsu\cms\modules\menu\controllers';
 
     /**
      * @inheritdoc

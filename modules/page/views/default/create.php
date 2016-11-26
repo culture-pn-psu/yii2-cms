@@ -3,7 +3,7 @@
 
 
 /* @var $this yii\web\View */
-/* @var $model anda\cms\modules\page\models\Page */
+/* @var $model culturePnPsu\cms\modules\page\models\Page */
 
 $this->title = 'Add new Page';
 $this->params['breadcrumbs'][] = ['label' => 'Pages', 'url' => ['index']];

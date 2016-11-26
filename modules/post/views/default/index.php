@@ -2,10 +2,10 @@
 
 use yii\helpers\Html;
 use kartik\grid\GridView;
-use anda\cms\base\WidgetSettings;
+use culturePnPsu\cms\base\WidgetSettings;
 use kartik\export\ExportMenu;
 /* @var $this yii\web\View */
-/* @var $searchModel anda\cms\modules\post\models\PostSearch */
+/* @var $searchModel culturePnPsu\cms\modules\post\models\PostSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = ucfirst($this->context->module->id);

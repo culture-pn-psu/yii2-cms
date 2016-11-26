@@ -1,8 +1,8 @@
 <?php
-namespace anda\cms\modules\album\models;
+namespace culturePnPsu\cms\modules\album\models;
 
 
-use anda\cms\modules\post\models\PostSearch;
+use culturePnPsu\cms\modules\post\models\PostSearch;
 
 class AlbumSearch extends PostSearch
 {

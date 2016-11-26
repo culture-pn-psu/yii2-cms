@@ -1,13 +1,13 @@
 <?php
-namespace anda\cms\modules\calendar\api;
+namespace culturePnPsu\cms\modules\calendar\api;
 
 use Yii;
-use anda\cms\base\ApiChildModule;
+use culturePnPsu\cms\base\ApiChildModule;
 
 class Calendar extends ApiChildModule
 {
-    public $modelClass = 'anda\cms\modules\calendar\models\Calendar';
+    public $modelClass = 'culturePnPsu\cms\modules\calendar\models\Calendar';
 
-    public $modelSearchClass = 'anda\cms\modules\calendar\models\CalendarSearch';
+    public $modelSearchClass = 'culturePnPsu\cms\modules\calendar\models\CalendarSearch';
     
 }

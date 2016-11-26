@@ -1,9 +1,9 @@
 <?php
 
-namespace anda\cms\modules\page\models;
+namespace culturePnPsu\cms\modules\page\models;
 
 use Yii;
-use anda\cms\base\Model as ActiveRecord;
+use culturePnPsu\cms\base\Model as ActiveRecord;
 use yii\behaviors\TimestampBehavior;
 use yii\behaviors\BlameableBehavior;
 use yii\behaviors\AttributeBehavior;
