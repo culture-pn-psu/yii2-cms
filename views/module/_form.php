@@ -6,6 +6,7 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model culturePnPsu\cms\models\Module */
 /* @var $form yii\widgets\ActiveForm */
+$model->settings = json_encode($model->settings);
 ?>
 
 <div class="module-form">

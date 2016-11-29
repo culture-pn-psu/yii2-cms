@@ -33,10 +33,15 @@ $this->params['breadcrumbs'][] = $this->title;
             'title',
             'class',
             'icon',
-            'settings:ntext',
+            //'settings',
+            [
+                'attribute'=>'settings',
+                'value'=> json_encode($model->settings)
+                ],
             'order_num',
             'status',
         ],
     ]) ?>
+    <?php print_r($model->settings)?>
 
 </div>
