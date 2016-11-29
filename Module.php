@@ -99,6 +99,8 @@ class Module extends \yii\base\Module implements BootstrapInterface
      */
     private function setLayout()
     {
+        Yii::$app->view->theme->pathMap = ['@app/views' => '@webroot/backend/themes/adminlte'];
+        Yii::$app->view->theme->baseUrl = '@web/backend/themes/adminlte';
         $this->layoutPath = '@culturePnPsu/cms/views/layouts';
         $this->layout = 'main';
     }
