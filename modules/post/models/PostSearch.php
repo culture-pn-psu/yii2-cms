@@ -14,9 +14,9 @@ use culturePnPsu\cms\modules\category\models\Category;
  */
 class PostSearch extends Post
 {
-//    public $category_name;
+    public $category_name;
 
-//    public $category_root;
+    public $category_root;
 
     /**
      * @inheritdoc
