@@ -101,6 +101,7 @@ class Module extends \yii\base\Module implements BootstrapInterface
     {
         Yii::$app->view->theme->pathMap = ['@app/views' => '@webroot/backend/themes/adminlte'];
         Yii::$app->view->theme->baseUrl = '@web/backend/themes/adminlte';
+        //Yii::$app->view->theme = null;
         $this->layoutPath = '@culturePnPsu/cms/views/layouts';
         $this->layout = 'main';
     }

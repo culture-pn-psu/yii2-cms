@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\widgets\ActiveForm;
 use yii\web\Response;
+use yii\helpers\Json;
 
 /**
  * DefaultController implements the CRUD actions for Category model.
@@ -51,7 +52,7 @@ class DefaultController extends Controller
     public function actionMoveNode($id, $mode, $targetId)
     {
         if (Yii::$app->request->isAjax) {
-            Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+            Yii::$app->response->format = Response::FORMAT_JSON;
             $model = $this->findModel($id);
             $target = $this->findModel($targetId);
             switch ($mode){
@@ -63,7 +64,7 @@ class DefaultController extends Controller
                     break;
             }
             $result = ['process' => true, 'message' => 'Move '.$model->id.' to '.$target->id.' has success..', 'mode' => $mode];
-            echo \yii\helpers\Json::encode($result);
+            echo Json::encode($result);
             return;
             //return $this->redirect(['tree', 'id' => $model->id]);
         }

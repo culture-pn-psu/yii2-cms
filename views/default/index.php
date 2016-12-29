@@ -11,6 +11,10 @@
     </p>
     <p>
         Your sessions<br />
-        <code><?php print_r(Yii::$app->session); ?></code>
+        <code><?php
+        echo '<pre>';
+        print_r(Yii::$app->session); 
+        echo "</pre>";
+        ?></code>
     </p>
 </div>
